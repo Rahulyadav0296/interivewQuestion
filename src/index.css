@@ -1,0 +1,95 @@
+/* General Styling */
+.app-container {
+  font-family: Arial, sans-serif;
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Selected Items Styling */
+.selected-items-container {
+  margin-bottom: 10px;
+}
+
+.selected-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e0e7ff;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+.delete-button {
+  background-color: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 5px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.delete-button:hover {
+  background-color: #ff1a1a;
+}
+
+/* Input Filter Styling */
+.input-filter {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Clear Button Styling */
+.clear-button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.clear-button:hover {
+  background-color: #0056b3;
+}
+
+/* Toggle Button Styling */
+.toggle-button {
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Options List Styling */
+.options-container {
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.option-item {
+  padding: 8px;
+  background-color: #e9ecef;
+  margin-top: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.option-item:hover {
+  background-color: #dee2e6;
+}
+
+.no-option {
+  text-align: center;
+  padding: 10px;
+  color: #666;
+}
